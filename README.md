@@ -26,7 +26,7 @@ sample rice products. Your existing tables are not touched.
 - Employees see their order status under **My orders** using employee ID + work email.
   That is a light check, not a login. If you need real sign-in, connect it to your company login.
 - Orders can be decided once (approved or not approved). Past orders keep the price they were made at.
-- The admin page is protected by `ADMIN_PASSWORD` only. Run it on your internal network.
+- The admin page is protected by `ADMIN_PASSWORD` only. Choose a strong password, and if the store is on the public internet, add Vercel password protection or a company login in front of `/admin`.
 
 ## Deploy on Vercel
 
